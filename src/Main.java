@@ -1,7 +1,9 @@
+
 import Service.NoteService;
 import models.Note;
 
 import java.util.Scanner;
+
 
 public class Main {
     private static volatile boolean userResponded = false;
@@ -74,6 +76,5 @@ public class Main {
         }
 
     }
-
 
 }

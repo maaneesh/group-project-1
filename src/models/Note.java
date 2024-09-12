@@ -1,24 +1,24 @@
 package models;
 
 public class Note {
-    private int id;
+    private final int id;
     //generate id randomly
     private String title;
     private String content;
-    private int counter = 1;
+    private static int counter = 1;
 
-    public Note( String title, String content) {
+    public Note(String title, String content) {
 
         this.title = title;
         this.content = content;
-        this.id = counter;
+        id = counter;
         counter++;
+
     }
 
     public int getId() {
         return id;
     }
-
 
     public String getTitle() {
         return title;

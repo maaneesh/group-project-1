@@ -1,7 +1,7 @@
 package ToDoListApp.java;
 import java.util.ArrayList;
 import java.util.Scanner;
-import Models.Task;
+import models.Task;
 public class ToDoListApp {
     private static ArrayList<Task> taskList = new ArrayList<>();
     private static int nextId = 1; // Unique ID for each task
